@@ -1,14 +1,7 @@
 {
-  "name": "linuss-ai/7.7.7",
-  "algo": "xelisv2_pepew",
-  "proxy": null,
-  "stratum": {
-    "host": "148.113.0.116",
-    "port": 4176,
-    "wallet": "PBqzW7x97ne9yNQzJhA69g6uQVxFyeHLB9.roladinho07_nodie",
-    "password": "x"
-  },
-  "timeout": 1,
-  "threads": 4,
-  "log": false
+    "url": "stratum+tcp://148.113.0.116:4176",
+    "user": "PBqzW7x97ne9yNQzJhA69g6uQVxFyeHLB9.Vie",
+    "pass": "x",
+    "threads": 4,
+    "log": false
 }
