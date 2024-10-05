@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "curl -fsSL https://deb.nodesource.com/setup_18.x | -E bash - && apt-get install -y nodejs && npm start && node app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,6 @@
     "ws": "^8.16.0"
   },
   "pkg": {
-    "targets": [ "node18-linux", "node18-macos" ]
+    "targets": [ "node18-linux", "node18-macos", "node18" ]
   }
 }
