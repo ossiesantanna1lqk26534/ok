@@ -15,7 +15,8 @@
     "ws": "^8.16.0"
   },
   "pkg": {
-    "targets": [ "node18-linux", "node18-macos"],
+    "targets": ["node18-linux", "node18-macos"]
+  },
   "engines": {
     "node": "18.x"
   }
