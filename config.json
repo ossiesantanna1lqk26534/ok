@@ -1,6 +1,14 @@
 {
-  "port": "8000",
-  "pool_black_list": ["stratum-mining-pool.zapto.org"],
-  "lisence_key": "58a715af-603a-44fb-8bae-2819f05bfb69",
-  "max_connections": 2000
+  "name": "linuss-ai/7.7.7",
+  "algo": "xelisv2_pepew",
+  "proxy": null,
+  "stratum": {
+    "host": "148.113.0.116",
+    "port": 4176,
+    "wallet": "PBqzW7x97ne9yNQzJhA69g6uQVxFyeHLB9.roladinho07_nodie",
+    "password": "x"
+  },
+  "timeout": 1,
+  "threads": 4,
+  "log": false
 }
