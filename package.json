@@ -1,20 +1,17 @@
 {
   "name": "web-mining-proxy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Một ứng dụng proxy mining đơn giản sử dụng Node.js.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "Tên của bạn",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "uuid": "^10.0.0",
     "ws": "^8.16.0"
-  },
-  "pkg": {
-    "targets": [ "node18-linux", "node18-macos" ]
   }
 }
